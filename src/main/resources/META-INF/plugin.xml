@@ -160,7 +160,7 @@
         <localInspection implementationClass="zio.intellij.inspections.simplifications.SimplifyZipLeftInspection"
                          displayName="Simplify discarding effect result to .zipLeft/&lt;*" groupPath="Scala,ZIO"
                          groupName="Simplifications"
-                         shortName="SimplifyZipLeftInspection" level="WARNING"
+                         shortName="SimplifyZipLeftInspection" level="WEAK WARNING"
                          enabledByDefault="true" language="Scala"/>
 
         <localInspection implementationClass="zio.intellij.inspections.simplifications.SimplifyForeachInspection"
